@@ -2,11 +2,11 @@
 // The exponent cannot be negative.
 // Caution: manage potential argument errors.
 // Langage : C#
-// Exec Command in Shell : csc terre08.cs && mono terre08.exe
+// Exec Command in Shell : csc Terre08.cs && mono Terre08.exe
 
 using System;
 
-  class Program
+  class Terre08
   {
     static void Main(String[] args)
     {
