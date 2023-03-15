@@ -18,8 +18,8 @@ An exercise approached from an 'agnostic' angle to add challenge (motivation) an
 🟢 | 08 | "Power of a number" | terre08.cs | C#
 🟢 | 09 | "Square root of a number" | terre09.jl | Julia
 🟢 | 10 | "Prime number" | terre10.kt | Kotlin |
-🟠 | 11 | "24 to 12" |  | 
-🟤 | 12 | "12 to 24" |  | 
+🟢 | 11 | "24 to 12" | terre11.swift | Swift |
+🟠 | 12 | "12 to 24" |  | 
 🟤 | 13 | "Find the Swiss" |  | 
 🟤 | 14 | "Sorted or not" |  | 
 
