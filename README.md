@@ -20,8 +20,8 @@ An exercise approached from an 'agnostic' angle to add challenge (motivation) an
 | 🟢  | 09  | "Square root of a number" | terre09.jl    | Julia      |
 | 🟢  | 10  | "Prime number"            | terre10.kt    | Kotlin     |
 | 🟢  | 11  | "24 to 12"                | terre11.swift | Swift      |
-| 🟠  | 12  | "12 to 24"                |               | R          |
-| 🟤  | 13  | "Find the Swiss"          |               | Dart       |
+| 🟢  | 12  | "12 to 24"                | terre12.r     | R          |
+| 🟠  | 13  | "Find the Swiss"          |               | Dart       |
 | 🟤  | 14  | "Sorted or not"           |               | Rust       |
 
 
@@ -87,7 +87,7 @@ Example of the top 15 high-level Prog. languages (without framework) :
 
 <img src=https://img.icons8.com/color/48/000000/swift.png  width="33" > &nbsp; Swift: [Official Doc.](https://swift.org/Doc./) | [Swift Prog. Language](https://swift.org/)
 
-<img src=https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg  width="33" > &nbsp; R: [Official Doc.](https://www.r-project.org/Doc./) | [R Project](https://www.r-project.org/)
+<img src=https://www.vectorlogo.zone/logos/r-project/r-project-icon.svg  width="33" > &nbsp; R: [Official Doc.](https://www.r-project.org/other-docs.html) | [R Project](https://www.r-project.org/)
 
 <img src=https://upload.wikimedia.org/wikipedia/commons/7/7e/Dart-logo.png  width="33" > &nbsp; Dart: [Official Doc.](https://dart.dev/guides) | [Dart Prog. Language](https://dart.dev/)
 
