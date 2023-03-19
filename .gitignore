@@ -1,0 +1,9 @@
+# files & folders to ignore in git commits :
+terre10.jar
+drafts/s
+*.lock
+*.toml
+node_modules/
+main.rs           
+package.json      
+package-lock.json 

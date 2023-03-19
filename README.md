@@ -21,8 +21,8 @@ An exercise approached from an 'agnostic' angle to add challenge (motivation) an
 | 🟢  | 10  | "Prime number"            | terre10.kt    | Kotlin     |
 | 🟢  | 11  | "24 to 12"                | terre11.swift | Swift      |
 | 🟢  | 12  | "12 to 24"                | terre12.r     | R          |
-| 🟠  | 13  | "Find the Swiss"          |               | Dart       |
-| 🟤  | 14  | "Sorted or not"           |               | Rust       |
+| 🟠  | 13  | "Find the Swiss"          | terre13.dart  | Dart       |
+| 🟤  | 14  | "Sorted or not"           | terre14.rs    | Rust       |
 
 
 ---
