@@ -10,21 +10,21 @@ An exercise approached from an 'agnostic' angle to add challenge (motivation) an
 
 |     | N°  | Algo                      | File          | Language   |
 | --- | --- | ------------------------- | ------------- | ---------- |
-| 🟢  | 00  | "Alphabet"                | terre00.py    | Python     |
-| 🟢  | 01  | "Program name"            | terre01.js    | JavaScript |
-| 🟢  | 02  | "Argument display"        | terre02.rb    | Ruby       |
-| 🟢  | 03  | "Alphabet from"           | terre03.php   | PHP        |
-| 🟢  | 04  | "Even or odd"             | terre04.sh    | Bash       |
-| 🟢  | 05  | "Divisions"               | terre05.java  | Java       |
-| 🟢  | 06  | "Invert a string"         | terre06.go    | Go         |
-| 🟢  | 07  | "Size of a string"        | terre07.ts    | TypeScript |
-| 🟢  | 08  | "Power of a number"       | terre08.cs    | C#         |
-| 🟢  | 09  | "Square root of a number" | terre09.jl    | Julia      |
-| 🟢  | 10  | "Prime number"            | terre10.kt    | Kotlin     |
-| 🟢  | 11  | "24 to 12"                | terre11.swift | Swift      |
-| 🟢  | 12  | "12 to 24"                | terre12.r     | R          |
-| 🟠  | 13  | "Find the Swiss"          | terre13.dart  | Dart       |
-| 🟤  | 14  | "Sorted or not"           | terre14.rs    | Rust       |
+| 🟢  | 00  | "Alphabet"                | [terre00.py](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre00.py)    | Python     |
+| 🟢  | 01  | "Program name"            | [terre01.js](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre01.js)    | JavaScript |
+| 🟢  | 02  | "Argument display"        | [terre02.rb](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre02.rb)    | Ruby       |
+| 🟢  | 03  | "Alphabet from"           | [terre03.php](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre03.php)   | PHP        |
+| 🟢  | 04  | "Even or odd"             | [terre04.sh](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre04.sh)    | Bash       |
+| 🟢  | 05  | "Divisions"               | [terre05.java](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre05.java)  | Java       |
+| 🟢  | 06  | "Invert a string"         | [terre06.go](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre06.go)    | Go         |
+| 🟢  | 07  | "Size of a string"        | [terre07.ts](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre07.ts)    | TypeScript |
+| 🟢  | 08  | "Power of a number"       | [terre08.cs](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre08.cs)    | C#         |
+| 🟢  | 09  | "Square root of a number" | [terre09.jl](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre09.jl)    | Julia      |
+| 🟢  | 10  | "Prime number"            | [terre10.kt](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre10.kt)    | Kotlin     |
+| 🟢  | 11  | "24 to 12"                | [terre11.swift](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre11.swift) | Swift      |
+| 🟢  | 12  | "12 to 24"                | [terre12.r](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre12.r)     | R          |
+| 🟠  | 13  | "Find the Swiss"          | [terre13.dart](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre13.dart)  | Dart       |
+| 🟤  | 14  | "Sorted or not"           | [terre14.rs](https://github.com/ipopop/cod_acc_sem2_01_earth/blob/main/terre14.rs)    | Rust       |
 
 
 ---

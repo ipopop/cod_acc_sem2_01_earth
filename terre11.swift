@@ -2,7 +2,7 @@
 // into a time displayed in 12h format.
 // Caution: noon and midnight.
 // Langage : Swift
-// Exec Command in Shell :
+// Exec Command in Shell : swift terre11.swift 23:40
 
 import Foundation
 

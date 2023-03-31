@@ -6,4 +6,7 @@ drafts/s
 node_modules/
 main.rs           
 package.json      
-package-lock.json 
+package-lock.json
+
+*.odt
+*.odp
