@@ -1,10 +1,10 @@
 Specs :
 
 | Create a program that displays its file name.
-
+|
 | Language: JavaScript
-
-| Exec Command in Shell: node terre01.js Use the __filename variable to get the full path of the current file. Use a regular expression to extract the file name from the full path. Print the file name to the console.
+|
+| Exec Command in Shell: node terre01.js
 
 Expected result :
 
