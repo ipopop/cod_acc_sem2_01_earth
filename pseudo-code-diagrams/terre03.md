@@ -14,7 +14,8 @@ Exec Command in Shell : php terre03.php m
 
 ```zsh
 $ php terre03.php m
-mlkjihgfedcba
+nopqrstuvwxyz
+
 $ 
 ```
 
