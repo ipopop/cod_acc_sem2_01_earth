@@ -1,14 +1,14 @@
 ##### Specs :
 
-Create a program that displays the alphabet
-  from the given letter given in argument
-  in lower case followed by a line break.
-
-Warning: your program must use a loop.
-
-Langage : PHP
-
-Exec Command in Shell : php terre03.php m
+> Create a program that displays the alphabet
+>  from the given letter given in argument
+>  in lower case followed by a line break.
+>
+> Warning: your program must use a loop.
+>
+> Langage : PHP
+>
+> Exec Command in Shell : php terre03.php m
 
 ##### Expected result :
 
