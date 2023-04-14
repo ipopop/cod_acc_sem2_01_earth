@@ -21,21 +21,15 @@ $
 
 ##### Steps:
 
-Get the argument passed to the program.
-
-Define the alphabet as a list of lowercase letters of the English alphabet using the range function.
-
-Check if the argument is a valid letter (a to z only).
-
-If the argument is not valid, print an error message and exit.
-
-If the argument is valid, convert it to lowercase and print it.
-
-Loop through the alphabet list backwards:
-	a. If the current letter is greater than the argument, print it.
-	b. If the current letter is less than or equal to the argument, do nothing.
-
-Print a new line character to create a new line.
+1. Get the argument passed to the program.
+2. Define the alphabet as a list of lowercase letters of the English alphabet using the range function.
+3. Check if the argument is a valid letter (a to z only).
+4. If the argument is not valid, print an error message and exit.
+5. If the argument is valid, convert it to lowercase and print it.
+6. Loop through the alphabet list backwards:
+ a. If the current letter is greater than the argument, print it.
+ b. If the current letter is less than or equal to the argument, do nothing.
+7. Print a new line character to create a new line.
 
 ##### Pseudo-code :
 ```
