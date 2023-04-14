@@ -1,11 +1,11 @@
 ##### Specs :
 
-Determine if the given argument is an even or odd integer,
-including negative integers.
-
-Langage : Shell
-
-Exec Command in Shell : (chmod +x terre04.sh) ./terre04.sh 
+> Determine if the given argument is an even or odd integer,
+> including negative integers.
+>
+> Langage : Shell
+>
+> Exec Command in Shell : (chmod +x terre04.sh) ./terre04.sh 
 
 ##### Expected result :
 
@@ -25,15 +25,12 @@ $
 
 ##### Steps:
 
-Read in the user input using read.
-
-Use a regular expression to check if the input is a valid integer.
-
-If the input is not a valid integer, output an error message and exit the program.
-
-Check if the input is even or odd.
-  a. If the input is even, output a message indicating that it is even.
-  b. If the input is odd, output a message indicating that it is odd.
+1. Read in the user input using read.
+2. Use a regular expression to check if the input is a valid integer.
+3. If the input is not a valid integer, output an error message and exit the program.
+4. Check if the input is even or odd.
+ a. If the input is even, output a message indicating that it is even.
+ b. If the input is odd, output a message indicating that it is odd.
 
 ##### Pseudo-code :
 
