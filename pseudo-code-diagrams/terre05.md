@@ -16,14 +16,12 @@ The remainder is 8
 
 ##### Steps :
 
-Parse the first command line argument as the dividend,
+1. Parse the first command line argument as the dividend,
 and the second command line argument as the divisor.
-
-Compute the quotient and remainder of the division
+2. Compute the quotient and remainder of the division
 between the dividend and the divisor
 using the division and modulo operators.
-
-Print the quotient and remainder to the console.
+3. Print the quotient and remainder to the console.
 
 ##### Pseudo-code :
 
