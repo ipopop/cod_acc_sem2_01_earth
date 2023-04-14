@@ -20,11 +20,12 @@ $
 
 ##### Steps:
 
-    Use the ARGV built-in variable to obtain
-    an array of command-line arguments passed to the Ruby script.
-    For each argument in the ARGV array, do the following:
-      a. Print the argument.
-      b. Include a new line character after printing the argument.
+Use the ARGV built-in variable to obtain
+an array of command-line arguments passed to the Ruby script.
+
+For each argument in the ARGV array, do the following:
+    a. Print the argument.
+    b. Include a new line character after printing the argument.
 
 ##### Pseudo-code :
 ```
