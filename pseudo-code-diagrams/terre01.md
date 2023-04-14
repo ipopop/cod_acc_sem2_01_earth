@@ -55,23 +55,23 @@ End
     +-------+
         |
         V
-+----------------+
++-----------------+
 | Get the full    |
 | path of current |
 | file using      |
 | __filename      |
-+----------------+
++-----------------+
+        |
+        V
++---------------------------+
+| Use regex to extract file |
+| name from full path       |
++---------------------------+
         |
         V
 +----------------------------+
-| Use regex to extract file  |
-| name from full path        |
+| Print file name to console |
 +----------------------------+
-        |
-        V
-+--------------------------+
-| Print file name to console|
-+--------------------------+
         |
         V
     +--------+
