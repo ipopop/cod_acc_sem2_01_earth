@@ -1,4 +1,4 @@
-Specs :
+##### Specs :
 
 > Create a program that displays its file name.
 >
@@ -6,7 +6,7 @@ Specs :
 >
 > Exec Command in Shell: node terre01.js
 
-Expected result :
+##### Expected result :
 
 ```sh
 $ node terre01.js
@@ -14,13 +14,13 @@ terre01.js
 $ 
 ```
 
-Steps:
+##### Steps:
 
 1.    Use the __filename variable to get the full path of the current file.
 2.    Use a regular expression to extract the file name from the full path.
 3.    Print the file name to the console.
 
-Pseudo-code :
+##### Pseudo-code :
 
 ```
 BEGIN
@@ -35,7 +35,7 @@ BEGIN
 END
 ```
 
-Diagrams :
+##### Diagrams :
 
 ```
 Start
