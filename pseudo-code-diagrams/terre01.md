@@ -1,10 +1,10 @@
 Specs :
 
-| Create a program that displays its file name.
-
-| Language: JavaScript
-
-| Exec Command in Shell: node terre01.js
+> Create a program that displays its file name.
+>
+> Language: JavaScript
+>
+> Exec Command in Shell: node terre01.js
 
 Expected result :
 
