@@ -11,7 +11,6 @@ Expected result :
 ```sh
 $ node terre01.js
 terre01.js
-
 $ 
 ```
 
