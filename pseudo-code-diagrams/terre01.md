@@ -1,0 +1,81 @@
+Specs :
+
+| Create a program that displays its file name.
+
+| Language: JavaScript
+
+| Exec Command in Shell: node terre01.js Use the __filename variable to get the full path of the current file. Use a regular expression to extract the file name from the full path. Print the file name to the console.
+
+Expected result :
+
+```sh
+$ node terre01.js
+terre01.js
+
+$ 
+```
+
+Steps:
+
+1.    Use the __filename variable to get the full path of the current file.
+2.    Use a regular expression to extract the file name from the full path.
+3.    Print the file name to the console.
+
+Pseudo-code :
+
+```
+BEGIN
+    // Get the full path of the current file
+    fullpath ← __filename
+
+    // Extract the file name from the full path
+    filename ← fullpath.replace(/^.*[\\\/]/, '')
+
+    // Print the file name to the console
+    OUTPUT filename
+END
+```
+
+Diagrams :
+
+```
+Start
+ |
+ |__ Use the `__filename` variable to get the full path of the current file.
+ |      |
+ |      |__ Use a regular expression to extract the file name from the full path.
+ |      |
+ |      |__ Print the file name to the console.
+ |
+End
+```
+
+```
+    +-------+
+    | Input |
+    +-------+
+        |
+        V
++----------------+
+| Get the full    |
+| path of current |
+| file using      |
+| __filename      |
++----------------+
+        |
+        V
++----------------------------+
+| Use regex to extract file  |
+| name from full path        |
++----------------------------+
+        |
+        V
++--------------------------+
+| Print file name to console|
++--------------------------+
+        |
+        V
+    +--------+
+    | Output |
+    +--------+
+```
