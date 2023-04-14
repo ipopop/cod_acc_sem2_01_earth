@@ -6,6 +6,8 @@
 
 An exercise approached from an 'agnostic' angle to add challenge (motivation) and discover different languages before specialising (expertise).
 
+⭐️ [Pseudo-code & Diagrams](https://github.com/ipopop/cod_acc_sem2_01_earth/tree/main/pseudo-code-diagrams)
+
 ✅ Bonus : [Implemention of the program using : Test-Driven Development (TDD) and following Clean Code principles](https://github.com/ipopop/cod_acc_sem2_01_earth/tree/draft/drafts/00_alphabet_TDD)
 
 |     | N°  | Algo                      | File          | Language   |
