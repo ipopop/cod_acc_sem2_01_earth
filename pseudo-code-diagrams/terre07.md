@@ -6,7 +6,8 @@
 >
 > Langage : Typescript
 >
-> Exec Command in Shell : npx ts-node terre07.ts "test-argument-007"
+> Exec Command in Shell :
+> npx ts-node terre07.ts "test-argument-007"
 
 ##### Expected result :
 
@@ -17,15 +18,18 @@ Argument : 'test-argument-007' / Number of Characters : 17
 
 ##### Steps :
 
-1. Check if there is at least one argument passed to the program.
+1. Check if there is at least
+   one argument passed to the program.
 2. Get the first argument passed to the program.
-3. Print the argument passed and the number of characters in the argument.
+3. Print the argument passed
+   and the number of characters in the argument.
 
 ##### Pseudo-code :
 
 ```
 BEGIN
-    // Check if there is at least one argument passed to the program.
+    // Check if there is at least
+    // one argument passed to the program.
     IF length of process.argv is less than 3 THEN
         PRINT "Expected at least one string argument!"
         EXIT program with error
@@ -34,7 +38,8 @@ BEGIN
     // Get the first argument passed to the program.
     myArgs ← process.argv[2]
     
-    // Print the argument passed and the number of characters in the argument.
+    // Print the argument passed
+    // and the number of characters in the argument.
     PRINT "Argument : '" + myArgs + "' / Number of Characters : " + myArgs.length
 END
 ```
@@ -44,7 +49,8 @@ END
 ```
 Start
  |
- |__ Check if there is at least one argument passed to the program.
+ |__ Check if there is at least
+ |   one argument passed to the program.
  |      |
  |      |__ IF length of process.argv is less than 3 THEN
  |      |      |
@@ -58,7 +64,8 @@ Start
  |      |
  |      |__ myArgs ← process.argv[2]
  |
- |__ Print the argument passed and the number of characters in the argument.
+ |__ Print the argument passed
+     and the number of characters in the argument.
         |
         |__ PRINT "Argument : '" + myArgs + "' / Number of Characters : " + myArgs.length
  |
@@ -71,17 +78,17 @@ End
      +-------+
          |
          V
-+-----------------+
-| Check if at least|
-| one argument was |
-| passed          |
-+-----------------+ 
++-------------------+
+| Check if at least |
+| one argument was  |
+| passed            |
++-------------------+ 
          |
          V
-+-----------------+
++------------------+
 | Get the argument |
-| passed          |
-+-----------------+ 
+| passed           |
++------------------+ 
          |
          V
    +------------+
@@ -91,10 +98,10 @@ End
    +------------+
          |
          V
-     +-------+
-     | Print |
-     | result|
-     +-------+
+     +--------+
+     | Print  |
+     | result |
+     +--------+
          |
          V
     +--------+
