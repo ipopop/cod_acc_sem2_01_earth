@@ -153,23 +153,23 @@ End
          |
          V
 +------------------+
-| Loop through     |
-| alphabet letters |
-+------------------+
-         |
-         V
-+-----------------+
-| Check if        |
-| current letter  |
-| is greater than |
-| argument        |
-+-----------------+
-         |
-         V
-   +---------+
-   | Print   |
-   | current |
-   | letter  |
+| Loop through     |<--+
+| alphabet letters |   |
++------------------+   |
+         |             |
+         V             |
++-----------------+    |
+| Check if        |    |
+| current letter  |    |
+| is greater than |    |
+| argument        |    |
++-----------------+    |
+         |             |
+         V             |
+   +---------+         |
+   | Print   |         |
+   | current |         |
+   | letter  |---------+
    +---------+
          |
          V
