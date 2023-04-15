@@ -85,15 +85,15 @@ END
 Start
  |
  |__ Import necessary modules
- |      |
- |      |__ Define a regular expression
- |      |   to match non-alphanumeric characters
- |      |
- |      |__ Define a function to remove
- |      |   non-alphanumeric characters from the input string
- |      |
- |      |__ Define a function to reverse the input string
- |      |
+ | 
+ |__ Define a regular expression
+ |   to match non-alphanumeric characters
+ |
+ |__ Define a function to remove
+ |   non-alphanumeric characters from the input string
+ |
+ |__ Define a function to reverse the input string
+ |      
  |__ For each argument in the command-line arguments, do the following:
  |      |
  |      |__ Remove non-alphanumeric characters
@@ -119,23 +119,23 @@ End
          |
          V
 +------------------+
-| Define function  |<--+
-| to remove        |   |
-| non-alphanumeric |   |
-| characters       |   |
-+------------------+   |
-         |             |
-         V             |
-+-----------------+    |
-| Define function |<---+
-| to reverse      |    |
-| the input       |    |
-| string          |    |
-+-----------------+    |
-         |             |
-         V             |
-+------------------+   |
-| For each command |   |
+| Define function  |
+| to remove        |
+| non-alphanumeric |
+| characters       |
++------------------+
+         |          
+         V          
++-----------------+ 
+| Define function |
+| to reverse      |
+| the input       |
+| string          |
++-----------------+
+         |         
+         V          
++------------------+
+| For each command |<--+
 | line argument    |   |
 +------------------+   |
          |             |
