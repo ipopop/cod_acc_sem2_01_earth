@@ -65,9 +65,9 @@ Start
  |      |__ myArgs ← process.argv[2]
  |
  |__ Print the argument passed
-     and the number of characters in the argument.
-        |
-        |__ PRINT "Argument : '" + myArgs + "' / Number of Characters : " + myArgs.length
+ |   and the number of characters in the argument.
+ |      |
+ |      |__ PRINT "Argument : '" + myArgs + "' / Number of Characters : " + myArgs.length
  |
 End
 ```
