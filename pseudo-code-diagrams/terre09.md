@@ -1,24 +1,31 @@
-specs :
+##### Specs :
 
+> 
 
-Expected result :
+##### Expected result :
 
-$
+```
+$ 
+```
 
-Steps :
+##### Steps :
 
-Pseudo-code :
+1.
 
+##### Pseudo-code :
+
+```
 BEGIN
 
 END
+```
 
-Diagrams :
+##### Diagrams :
 
-Start |
+```
 
-| End
+```
 
-+-------+ | Input | +-------+ | V +-----------------+
+```
 
-+------------------+ | V +--------+ | Output | +--------+
+```
