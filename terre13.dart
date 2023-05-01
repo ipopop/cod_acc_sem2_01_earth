@@ -35,10 +35,10 @@ void main(List<String> arguments) {
 
 // Function that returns the middle value of three integers
 int getMiddleValue(int a, int b, int c) {
-  // If a is between b and c, or c is between a and b, then a is the middle value
+  // If a is between b and c, or a is between c and b, then a is the middle value
   if ((a >= b && a <= c) || (a >= c && a <= b)) {
     return a;
-  // If b is between a and c, or c is between b and a, then b is the middle value
+  // If b is between a and c, or b is between c and a, then b is the middle value
   } else if ((b >= a && b <= c) || (b >= c && b <= a)) {
     return b;
   // Otherwise, c is the middle value

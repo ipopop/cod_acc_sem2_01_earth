@@ -65,10 +65,10 @@ END
 
 // Function that returns the middle value of three integers
 FUNCTION getMiddleValue(a, b, c)
-    // If a is between b and c, or c is between a and b, then a is the middle value
+    // If a is between b and c, or a is between c and b, then a is the middle value
     IF (a >= b AND a <= c) OR (a >= c AND a <= b) THEN
         RETURN a
-    // If b is between a and c, or c is between b and a, then b is the middle value
+    // If b is between a and c, or b is between c and a, then b is the middle value
     ELSE IF (b >= a AND b <= c) OR (b >= c AND b <= a) THEN
         RETURN b
     // Otherwise, c is the middle value
