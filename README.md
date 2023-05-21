@@ -44,23 +44,25 @@ An exercise approached from an 'agnostic' angle to add challenge (motivation) an
 
 Example of the top 15 high-level Prog. languages (without framework) :
 
-| Language   | Learning Curve | Popularity         | Use Cases                                                                               | Performance | Community         |
-| ---------- | -------------- | ------------------ | --------------------------------------------------------------------------------------- | ----------- | ----------------- |
-| JavaScript | Moderate       | Very popular       | Web development, front-end and back-end, mobile development, and more                   | Moderate    | Large and active  |
-| Java       | Moderate       | Very popular       | Desktop and web applications, Android app development, server-side, and more            | High        | Large and active  |
-| Python     | Easy           | Very popular       | Web development, data analysis, scientific computing, artificial intelligence, and more | Moderate    | Large and active  |
-| Ruby       | Easy           | Popular            | Web development, back-end, scripting, automation, and more                              | Moderate    | Large and active  |
-| PHP        | Easy           | Popular            | Web development, server-side scripting, and more                                        | Moderate    | Large and active  |
-| C#         | Moderate       | Popular            | Windows applications, web development, game development, and more                       | High        | Large and active  |
-| Swift      | Moderate       | Popular            | iOS and macOS app development, server-side development, and more                        | High        | Large and active  |
-| R          | Moderate       | Popular            | Data analysis, statistical computing, and machine learning                              | Moderate    | Large and active  |
-| TypeScript | Moderate       | Gaining popularity | Web development, front-end and back-end, mobile development, and more                   | Moderate    | Growing community |
-| Go         | Moderate       | Gaining popularity | Networking, web development, cloud computing, and more                                  | High        | Growing community |
-| Kotlin     | Easy           | Gaining popularity | Android app development, server-side development, and more                              | High        | Growing community |
-| Bash       | Easy           | Gaining popularity | System administration, shell scripting, and more                                        | Moderate    | Growing community |
-| Rust       | Moderate       | Gaining popularity | Systems Prog., web development, game development, and more                        | High        | Growing community |
-| Julia      | Easy           | Gaining popularity | Numerical and scientific computing, machine learning, and more                          | High        | Growing community |
-| Dart       | Easy           | Gaining popularity | Web development, mobile app development, server-side development, and more              |      High       | Growing community |
+| Language   | Learning Curve | Popularity         | Use Cases                                                                               | Performance | Community         | Avg. Junior TJM (France) | Market Demand (Junior) |
+| ---------- | -------------- | ------------------ | --------------------------------------------------------------------------------------- | ----------- | ----------------- | ------------------------ | ---------------------- |
+| JavaScript | Moderate       | Very popular       | Web development, front-end and back-end, mobile development, and more                   | Moderate    | Large and active  | €350                     | ⭐⭐⭐⭐⭐                |
+| Java       | Moderate       | Very popular       | Desktop and web applications, Android app development, server-side, and more            | High        | Large and active  | €350                     | ⭐⭐⭐⭐                 |
+| Python     | Easy           | Very popular       | Web development, data analysis, scientific computing, artificial intelligence, and more | Moderate    | Large and active  | €340                     | ⭐⭐⭐⭐⭐                |
+| Ruby       | Easy           | Popular            | Web development, back-end, scripting, automation, and more                              | Moderate    | Large and active  | €320                     | ⭐⭐⭐                  |
+| PHP        | Easy           | Popular            | Web development, server-side scripting, and more                                        | Moderate    | Large and active  | €300                     | ⭐⭐⭐                  |
+| C#         | Moderate       | Popular            | Windows applications, web development, game development, and more                       | High        | Large and active  | €350                     | ⭐⭐⭐⭐                 |
+| Swift      | Moderate       | Popular            | iOS and macOS app development, server-side development, and more                        | High        | Large and active  | €360                     | ⭐⭐⭐⭐                 |
+| R          | Moderate       | Popular            | Data analysis, statistical computing, and machine learning                              | Moderate    | Large and active  | €330                     | ⭐⭐⭐                  |
+| TypeScript | Moderate       | Gaining popularity | Web development, front-end and back-end, mobile development, and more                   | Moderate    | Growing community | €360                     | ⭐⭐⭐⭐                 |
+| Go         | Moderate       | Gaining popularity | Networking, web development, cloud computing, and more                                  | High        | Growing community | €380                     | ⭐⭐⭐⭐                 |
+| Kotlin     | Easy           | Gaining popularity | Android app development, server-side development, and more                              | High        | Growing community | €350                     | ⭐⭐⭐⭐                 |
+| Bash       | Easy           | Gaining popularity | System administration, shell scripting, and more                                        | Moderate    | Growing community | €300                     | ⭐⭐                   |
+| Rust       | Moderate       | Gaining popularity | Systems Prog., web development, game development, and more                               | High        | Growing community | €380                     | ⭐⭐⭐⭐                 |
+| Julia      | Easy           | Gaining popularity | Numerical and scientific computing, machine learning, and more                          | High        | Growing community | €340                     | ⭐⭐⭐                  |
+| Dart       | Easy           | Gaining popularity | Web development, mobile app development, server-side development, and more              | High        | Growing community | €330                     | ⭐⭐⭐                  |
+
+
 
 
 ---
