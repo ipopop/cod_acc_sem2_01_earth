@@ -1,5 +1,3 @@
-### To-do list
-
 ## Test of the Earth
 
 (S02 M03)
@@ -64,30 +62,40 @@ Example of the top 15 high-level Prog. languages (without framework) :
 
 ---
 
-(AI research tools : phind.com)
-Based on the provided sources and criteria, here are the top 3 choices for a first job experience in France in 2023:
+(AI research tools : phind.com)<br>
+### Top choices for a first job experience in France in 2023 :
 
-Choice 1 (Best money ratio): Go
+### - Choice 1 (Best money ratio): Go
 
 Go developers have a high average junior TJM in France (€380), and the language is known for its performance and use in networking, web development, and cloud computing. Go has a growing community and increasing market demand, making it a good choice for those looking to maximize earnings.
-[coderpad.io](https://coderpad.io/blog/hiring-developers/top-10-in-demand-programming-languages/)
 
-Choice 2 (Best market demand): JavaScript
+### - Choice 2 (Best market demand): JavaScript
 
 JavaScript is very popular, with a large and active community. It has a wide range of use cases, including web development, front-end and back-end, and mobile development. With a high market demand for junior developers and moderate average junior TJM (€350), JavaScript is a great choice for those looking to enter a thriving job market.
-[coursera.org](https://www.coursera.org/articles/popular-programming-languages)
 
-Choice 3 (Best popularity/community): Python
+### - Choice 3 (Best popularity/community): Python
 
 Python has a large and active community, and it is very popular due to its ease of learning and wide range of applications, including web development, data analysis, scientific computing, and artificial intelligence. With a moderate average junior TJM (€340) and high market demand, Python is an attractive choice for those looking for a strong community and diverse job opportunities.
-[coursera.org](https://www.coursera.org/articles/popular-programming-languages)
 
-Conclusion (Master choice): JavaScript
+### - Choice 4. (Master choice): JavaScript
 
 Considering all three criteria (money ratio, market demand, and popularity/community), JavaScript is the best choice for a first job experience in France in 2023. It offers a good balance of earning potential, high market demand, and a large, active community. Additionally, with its wide range of use cases and applications, learning JavaScript will provide a solid foundation for a successful career in software development.
-[coursera.org](https://www.coursera.org/articles/popular-programming-languages)
 
+### - Choice 5. (AI revolution choice) : Python
 
+Python is also the top choice when considering the growing importance of machine learning and AI in the job market. It has numerous libraries and frameworks for AI and machine learning, such as TensorFlow, Keras, and PyTorch, making it a 'sexy' choice for developers looking to specialize in these emerging fields.
+
+### - Choice 6. (Web Choice) : JavaScript / TypeScript
+
+JavaScript and TypeScript are widely used for both front-end and back-end web development. JavaScript is the most popular language for web development, and TypeScript, a superset of JavaScript, adds static typing and improves code maintainability.
+With the rise of modern front-end frameworks like React, Angular, and Vue.js, as well as back-end technologies like Node.js, JavaScript and TypeScript continue to have a strong presence in the web development market.
+The JavaScript and TypeScript communities are large, active, and growing, with numerous resources, tutorials, and third-party libraries available for developers.
+
+In conclusion, for web development, the best choice would be a combination of JavaScript and TypeScript due to their widespread use, versatility, and strong community support.
+
+### - Choice 7. (Future of 3D Web) : Unreal Engine 5, C++, Pixel Streaming, WebRTC
+
+The market demand for developers with skills in Unreal Engine 5, C++, pixel streaming, web development (HTML, CSS, JavaScript), and WebRTC is expected to grow, driven by the increasing popularity of real-time web experiences and advancements in gaming and visualization industries. Although it's difficult to provide exact numbers, focusing on these skills will position you well in the job market as more companies seek to create high-quality, real-time web experiences using Unreal Engine and related technologies. In France, the estimated TJM for a junior developer with these skills ranges between €200 to €450 per day, depending on the specific skill and project requirements.
 
 ---
 
