@@ -62,6 +62,30 @@ Example of the top 15 high-level Prog. languages (without framework) :
 | Julia      | Easy           | Gaining popularity | Numerical and scientific computing, machine learning, and more                          | High        | Growing community | €340                     | ⭐⭐⭐                  |
 | Dart       | Easy           | Gaining popularity | Web development, mobile app development, server-side development, and more              | High        | Growing community | €330                     | ⭐⭐⭐                  |
 
+---
+
+(AI research tools : phind.com)
+Based on the provided sources and criteria, here are the top 3 choices for a first job experience in France in 2023:
+
+Choice 1 (Best money ratio): Go
+
+Go developers have a high average junior TJM in France (€380), and the language is known for its performance and use in networking, web development, and cloud computing. Go has a growing community and increasing market demand, making it a good choice for those looking to maximize earnings.
+[coderpad.io](https://coderpad.io/blog/hiring-developers/top-10-in-demand-programming-languages/)
+
+Choice 2 (Best market demand): JavaScript
+
+JavaScript is very popular, with a large and active community. It has a wide range of use cases, including web development, front-end and back-end, and mobile development. With a high market demand for junior developers and moderate average junior TJM (€350), JavaScript is a great choice for those looking to enter a thriving job market.
+[coursera.org](https://www.coursera.org/articles/popular-programming-languages)
+
+Choice 3 (Best popularity/community): Python
+
+Python has a large and active community, and it is very popular due to its ease of learning and wide range of applications, including web development, data analysis, scientific computing, and artificial intelligence. With a moderate average junior TJM (€340) and high market demand, Python is an attractive choice for those looking for a strong community and diverse job opportunities.
+[coursera.org](https://www.coursera.org/articles/popular-programming-languages)
+
+Conclusion (Master choice): JavaScript
+
+Considering all three criteria (money ratio, market demand, and popularity/community), JavaScript is the best choice for a first job experience in France in 2023. It offers a good balance of earning potential, high market demand, and a large, active community. Additionally, with its wide range of use cases and applications, learning JavaScript will provide a solid foundation for a successful career in software development.
+[coursera.org](https://www.coursera.org/articles/popular-programming-languages)
 
 
 
