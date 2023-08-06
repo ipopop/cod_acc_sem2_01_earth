@@ -25,8 +25,8 @@ $
 ```
 Algorithm GetAndPrintFileName
 Variables
-    fullpath ← GetFullPath() : STRING
-    filename ← "" : STRING
+    fullpath : STRING = GetFullPath() : STRING
+    filename : STRING = "" : STRING
 
 Begin
     fullpath ← GetCurrentFilePath()
