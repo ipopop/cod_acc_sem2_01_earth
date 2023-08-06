@@ -36,7 +36,7 @@ BEGIN
     END IF
     
     // Get the first argument passed to the program.
-    myArgs ← process.argv[2]
+    myArgs : STRING ← process.argv[2]
     
     // Print the argument passed
     // and the number of characters in the argument.
