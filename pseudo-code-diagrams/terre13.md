@@ -42,16 +42,16 @@ BEGIN
 
     // Parse command line arguments and convert them to integers
     TRY
-        a ← parse argument 1 as integer
-        b ← parse argument 2 as integer
-        c ← parse argument 3 as integer
+        a : INT ← parse argument 1 as integer
+        b : INT ← parse argument 2 as integer
+        c : INT ← parse argument 3 as integer
     CATCH
         OUTPUT "Please provide three integers as command line arguments."
         RETURN
     END TRY
 
     // Call the getMiddleValue function with three integer parameters and store the result in a variable
-    middleValue ← getMiddleValue(a, b, c)
+    middleValue : INT ← getMiddleValue(a, b, c)
 
     // Print the middle value using string interpolation
     OUTPUT "The middle value is: " + middleValue
@@ -64,7 +64,7 @@ BEGIN
 END
 
 // Function that returns the middle value of three integers
-FUNCTION getMiddleValue(a, b, c)
+FUNCTION getMiddleValue(a : INT, b : INT, c : INT) : INT
     // If a is between b and c, or a is between c and b, then a is the middle value
     IF (a >= b AND a <= c) OR (a >= c AND a <= b) THEN
         RETURN a
@@ -78,7 +78,7 @@ FUNCTION getMiddleValue(a, b, c)
 END FUNCTION
 
 // Function that returns the middle value of a 3 elem. list
-FUNCTION lol(list)
+FUNCTION lol(list : LIST) : INT
     // Return the middle value
     RETURN list[1]
 END FUNCTION
