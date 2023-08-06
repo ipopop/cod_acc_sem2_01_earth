@@ -31,10 +31,10 @@ $
 ```
 BEGIN
     // Define a string variable containing lowercase alphabet
-    alphabet ← "abcdefghijklmnopqrstuvwxyz" : STRING
+    alphabet : STRING = "abcdefghijklmnopqrstuvwxyz"
 
     // Loop through each letter in the alphabet
-    FOR EACH letter IN alphabet DO
+    FOR EACH letter : CHAR IN alphabet DO
         OUTPUT letter : CHAR
     END FOR
 
