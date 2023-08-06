@@ -43,7 +43,7 @@ $
 
 ```
 BEGIN
-    FUNCTION sqrt_positive_int(n::Int)
+    FUNCTION sqrt_positive_int(n::INT)::FLOAT64
         IF n < 0 THEN
             RAISE an error with message "Input must be a positive integer"
         ELSE
