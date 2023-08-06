@@ -37,7 +37,7 @@ $
 ```
 BEGIN
     // Read user input using read command
-    read -rp "Enter a number: " number
+    read -rp "Enter a number: " number : INT
 
     // Use regular expression to check if input is a valid integer
     if ! [[ "$number" =~ ^[-+]?[0-9] ]];
