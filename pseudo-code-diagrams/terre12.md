@@ -29,12 +29,12 @@ $
 ```
 BEGIN
     // Get the time argument from the command line
-    timeInput ← commandArgs(trailingOnly = TRUE)[1]
+    timeInput : STRING ← commandArgs(trailingOnly = TRUE)[1]
     OUTPUT "Time in 12-hours format received:", timeInput
 
     // Extract the hours and minutes from the input string
-    hours ← as.integer(substr(timeInput, 1, regexpr(":", timeInput) - 1))
-    mins ← as.integer(substr(timeInput, regexpr(":", timeInput) + 1, nchar(timeInput) - 2))
+    hours : INT ← as.integer(substr(timeInput, 1, regexpr(":", timeInput) - 1))
+    mins : INT ← as.integer(substr(timeInput, regexpr(":", timeInput) + 1, nchar(timeInput) - 2))
 
     // Modify hours according to AM or PM
     IF endsWith(timeInput, "PM") AND hours != 12 THEN
@@ -46,7 +46,7 @@ BEGIN
     END IF
 
     // Convert to 24h format
-    timeOutput ← sprintf("%02d:%02d", hours, mins)
+    timeOutput : STRING ← sprintf("%02d:%02d", hours, mins)
 
     // Print the result
     OUTPUT "Time in 24-hour format:", timeOutput
