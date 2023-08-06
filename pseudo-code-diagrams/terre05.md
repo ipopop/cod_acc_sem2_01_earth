@@ -28,12 +28,12 @@ using the division and modulo operators.
 ```
 BEGIN
     // Parse command line arguments as integers
-    dividend ← parse_integer(args[0])
-    divisor ← parse_integer(args[1])
+    dividend : INT ← parse_integer(args[0])
+    divisor : INT ← parse_integer(args[1])
 
     // Compute quotient and remainder
-    quotient ← dividend / divisor
-    remainder ← dividend % divisor
+    quotient : INT ← dividend / divisor
+    remainder : INT ← dividend % divisor
 
     // Print the results
     OUTPUT "The quotient is " + quotient
