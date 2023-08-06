@@ -23,16 +23,18 @@ $
 ##### Pseudo-code :
 
 ```
-BEGIN
-    // Get the full path of the current file
-    fullpath ← __filename
+Algorithm GetAndPrintFileName
+Variables
+    fullpath ← GetFullPath() : STRING
+    filename ← "" : STRING
 
-    // Extract the file name from the full path
-    filename ← fullpath.replace(/^.*[\\\/]/, '')
+Begin
+    fullpath ← GetCurrentFilePath()
 
-    // Print the file name to the console
-    OUTPUT filename
-END
+    filename ← ExtractFileName(fullpath)
+
+    PrintToConsole(filename)
+End
 ```
 
 ##### Diagrams :
