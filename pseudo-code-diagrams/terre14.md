@@ -56,7 +56,7 @@ $
 ```
 BEGIN
     // Collect the command line arguments into a vector
-    args ← env::args().skip(1).collect()
+    args : VECTOR<STRING> ← env::args().skip(1).collect()
 
     // Check if there are any command line arguments provided
     IF args.is_empty() THEN
@@ -65,22 +65,23 @@ BEGIN
     END IF
 
     // Create a vector to store the parsed integers
-    nums ← []
+    nums : VECTOR<INT> ← []
 
     // Iterate through each argument and parse it as an integer
     FOR arg IN args DO
         // If parsing succeeds, add the integer to the vector
         // If parsing fails, print an error message and exit the program
-        IF let Ok(num) = arg.parse::<i32>() THEN
+        TRY
+            num : INT ← parse arg as i32
             nums.push(num)
-        ELSE
+        CATCH
             PRINT "Invalid input: ", arg
             RETURN
-        END IF
+        END TRY
     END FOR
 
     // Check if the vector of integers is sorted
-    is_sorted ← nums.windows(2).all(|w| w[0] <= w[1])
+    is_sorted : BOOL ← nums.windows(2).all(|w| w[0] <= w[1])
 
     // Print a message indicating whether the list is sorted or not
     IF is_sorted THEN
