@@ -30,13 +30,15 @@ an array of command-line arguments passed to the Ruby script.
 ##### Pseudo-code :
 ```
 BEGIN
-    // Loop through each argument passed
-    // to the Ruby script
-    FOR EACH argument IN ARGV DO
+    // Loop through each argument passed to the Ruby script
+    FOR EACH argument : STRING IN ARGV DO
+
         // Print the argument
-        OUTPUT argument
+        OUTPUT argument : STRING
+
         // Print a newline character
-        OUTPUT newline character
+        OUTPUT "\n" : STRING
+
     END FOR
 END
 ```
