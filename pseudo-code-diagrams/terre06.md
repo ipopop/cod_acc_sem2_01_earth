@@ -47,13 +47,13 @@ BEGIN
     // Define a function called "clearString"
     // to remove any non-alphanumeric characters
     // from the input string using the regular expression
-    FUNCTION clearString(inputString) DO
+    FUNCTION clearString(inputString : STRING) DO
         RETURN nonAlphanumericRegex.ReplaceAllString(inputString, "")
     END FUNCTION
 
     // Define a function called "reverseString" to invert the input string
-    FUNCTION reverseString(inputString) DO
-        reversedString ← ""
+    FUNCTION reverseString(inputString : STRING) DO
+        reversedString : STRING ← ""
         FOR EACH character IN inputString DO
             reversedString ← character + reversedString
         END FOR
@@ -66,11 +66,11 @@ BEGIN
         IF i > 0 THEN
             // Call the "clearString" function
             // to remove any non-alphanumeric characters
-            cleanedString ← clearString(arg)
+            cleanedString : STRING ← clearString(arg)
 
             // Call the "reverseString" function
             // to invert the cleaned string
-            invertedString ← reverseString(cleanedString)
+            invertedString : STRING ← reverseString(cleanedString)
 
             // Print the inverted string to the console
             fmt.Println(invertedString)
