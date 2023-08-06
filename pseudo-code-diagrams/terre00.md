@@ -29,16 +29,18 @@ $
 ##### Pseudo-code :
 
 ```
-DÉBUT
-    // Définir une variable de chaîne de caractères
-    alphabet ← "abcdefghijklmnopqrstuvwxyz" : CHAÎNE DE CARACTÈRES
+BEGIN
+    // Define a string variable containing lowercase alphabet
+    alphabet ← "abcdefghijklmnopqrstuvwxyz" : STRING
 
-    POUR CHAQUE lettre DANS alphabet FAIRE
-        AFFICHER lettre : CARACTÈRE
-    FIN POUR
+    // Loop through each letter in the alphabet
+    FOR EACH letter IN alphabet DO
+        OUTPUT letter : CHAR
+    END FOR
 
-    AFFICHER caractère de saut de ligne : CARACTÈRE
-FIN
+    // Print a newline character to end the line
+    OUTPUT newline character : CHAR
+END
 ```
 
 
