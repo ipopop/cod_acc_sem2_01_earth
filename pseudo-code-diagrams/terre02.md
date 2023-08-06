@@ -37,7 +37,7 @@ BEGIN
         OUTPUT argument : STRING
 
         // Print a newline character
-        OUTPUT "\n" : STRING
+        OUTPUT "\n" : CHAR
 
     END FOR
 END
