@@ -49,41 +49,40 @@ BEGIN
     END IF
 
     // Retrieve the time string from the command line argument
-    timeString ← CommandLine.arguments[1]
+    timeString : STRING ← CommandLine.arguments[1]
 
     // Create a date formatter to parse the time string
-    dateFormatter ← create DateFormatter object
+    dateFormatter : DATEFORMATTER ← create DateFormatter object
     dateFormatter.dateFormat ← "HH:mm"
 
     // Attempt to parse the time string into a Date object
-    time ← parse timeString using dateFormatter
+    time : DATE ← parse timeString using dateFormatter
     IF time is nil THEN
         OUTPUT "Error: Invalid time format. Please enter a time in 24h format (e.g. '23:40')."
         EXIT with error
     END IF
 
     // Extract the hour and minute components from the date object
-    timeComponents ← extract hour and minute components from time using Calendar object
+    timeComponents : (hour: INT?, minute: INT?) ← extract hour and minute components from time using Calendar object
     IF hour or minute is nil THEN
         OUTPUT "Error: Unable to extract hour and minute components from time."
         EXIT with error
     END IF
 
+    hour : INT ← timeComponents.hour!
+    minute : INT ← timeComponents.minute!
+
     // Convert the hour component to 12h format
-    displayHours ← hour % 12
+    displayHours : INT ← hour % 12
     IF displayHours = 0 THEN
         displayHours ← 12
     END IF
 
     // Determine whether the time is in AM or PM
-    IF hour >= 12 THEN
-        ampm ← "PM"
-    ELSE
-        ampm ← "AM"
-    END IF
+    ampm : STRING ← IF hour >= 12 THEN "PM" ELSE "AM"
 
     // Format the time in 12h format and print it to the console
-    displayTime ← format displayHours, minute, and ampm as a string
+    displayTime : STRING ← format displayHours, minute, and ampm as a string
     OUTPUT "Input time string: " + timeString
     OUTPUT "12-hour format: " + displayTime
 END
