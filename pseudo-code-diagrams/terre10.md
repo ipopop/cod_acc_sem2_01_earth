@@ -64,10 +64,10 @@ Warning: 1 is not a prime number.
 ```
 BEGIN
     // Get the first command-line argument as a string
-    argument ← args[0]
+    argument : STRING ← args[0]
 
     // Try to convert the argument to an integer
-    num ← argument.toIntOrNull()
+    num : INT? ← argument.toIntOrNull()
 
     // Check for argument errors
     IF args.size ≠ 1 THEN
