@@ -35,36 +35,36 @@ $
 ```
 BEGIN
     // Get the argument passed to the program
-    argument ← argv[1]
+    argument ← argv[1] : STRING
 
     // Define the alphabet as a list
     // of lowercase letters of the English alphabet
-    alphabet ← range('z', 'a')
+    alphabet ← range('z', 'a') : ARRAY OF STRING
 
     // Check if the argument is a valid letter (a to z only)
     IF argument does not match /^[a-z]$/i THEN
         // Print an error message and exit
-        OUTPUT "'$argument' is not a valid argument (a to z only)"
-        OUTPUT newline character
+        OUTPUT "'$argument' is not a valid argument (a to z only)" : STRING
+        OUTPUT newline character : CHAR
         EXIT
     END IF
 
     // Convert the argument to lowercase and print it
-    lowerArg ← strtolower(argument)
-    OUTPUT lowerArg
+    lowerArg ← strtolower(argument) : STRING
+    OUTPUT lowerArg : STRING
 
     // Loop through the alphabet list backwards
     FOR i ← count(alphabet) - 1 TO 0 STEP -1 DO
         // If the current letter is greater than the argument, print it
         IF alphabet[i] > lowerArg THEN
-            OUTPUT alphabet[i]
+            OUTPUT alphabet[i] : STRING
         // If the current letter is less than or equal to the argument, do nothing
         ELSE
         END IF
     END FOR
 
     // Print a newline character to create a new line
-    OUTPUT newline character
+    OUTPUT newline character : CHAR
 END
 ```
 
