@@ -38,13 +38,13 @@ BEGIN
     OUTPUT "Enter the base number: "
 
     // Read the base number from user input and convert it to an integer
-    INPUT baseNum
+    INPUT baseNum : INT
 
     // Prompt user to enter the exponent
     OUTPUT "Enter the exponent: "
 
     // Read the exponent from user input and convert it to an integer
-    INPUT exponent
+    INPUT exponent : INT
 
     // Check if exponent is negative
     IF exponent < 0 THEN
@@ -53,7 +53,7 @@ BEGIN
     END IF
 
     // Calculate power using a loop
-    result ← 1
+    result : INT ← 1
     FOR i FROM 1 TO exponent DO
         result ← result * baseNum
     END FOR
